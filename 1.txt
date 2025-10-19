@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت من</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+  <header class="bg-blue-600 text-white p-4 text-center">
+    <h1 class="text-3xl font-bold">خوش آمدید به سایت من!</h1>
+    <nav class="mt-2">
+      <a href="#home" class="mx-2 hover:underline">خانه</a>
+      <a href="#about" class="mx-2 hover:underline">درباره ما</a>
+      <a href="#contact" class="mx-2 hover:underline">تماس</a>
+    </nav>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 mt-6 bg-white rounded-lg shadow-md">
+    <section id="home">
+      <h2 class="text-2xl font-semibold mb-4">صفحه اصلی</h2>
+      <p class="mb-4">اینجا می‌تونی درباره پروژه‌ها، بازی‌ها یا هر چیزی که می‌خوای بنویسی!</p>
+      <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">شروع کن!</button>
+    </section>
+    <section id="about" class="mt-6">
+      <h2 class="text-2xl font-semibold mb-4">درباره ما</h2>
+      <p>من و مسیحا عاشق گیم و ماجراجویی هستیم. این سایت رو ساختیم تا تجربه‌هامون رو به اشتراک بذاریم!</p>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+    <p>© 2025 سایت من | ساخته شده با عشق!</p>
+  </footer>
+</body>
+</html>
